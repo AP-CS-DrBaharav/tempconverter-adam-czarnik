@@ -16,7 +16,7 @@ public class TempConverter {
     
     public double C2F( double t)
     {
-        return 0;
+        return ((t * 9)/5 + 32);
     }
 
     /**
@@ -27,7 +27,7 @@ public class TempConverter {
 
     public double F2C( double t)
     {
-        return 0;
+        return (((t - 32) * 5)/9);
     }
     
     /**
@@ -38,7 +38,7 @@ public class TempConverter {
     */
     public double C2K( double t)
     {
-        return 0;
+        return t + 273.15;
     }
 
     
